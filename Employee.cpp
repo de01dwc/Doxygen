@@ -2,8 +2,7 @@
  * @file Employee.cpp
  * @author Matthew Deck
  * @date 2023-11-17
- * @brief 
- * 
+ * @brief Employee class definition
  * 
  */
 

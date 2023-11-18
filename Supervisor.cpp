@@ -1,3 +1,11 @@
+/**
+ * @file Supervisor.cpp
+ * @author Matthew Deck
+ * @date 2023-11-17
+ * @brief Supervisor ranked Employee
+ * 
+ */
+
 #include "Supervisor.h"
 #include <iostream>
 

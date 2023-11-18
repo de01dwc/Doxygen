@@ -2,8 +2,7 @@
  * @file Employee.h
  * @author Matthew Deck
  * @date 2023-11-17
- * @brief 
- * 
+ * @brief Employee class definition
  * 
  */
 
@@ -12,10 +11,11 @@
 
 
 /**
- * 
+ * Employee class stores employee pay rates, hours worked, and years of service. Provides 
+ * method to display information to the standard output.
  *
  * @class Employee Employee.h "Doxygen/Employee.h"
- * @brief 
+ * @brief Base Employee object
  *
  */
 class Employee {
@@ -29,53 +29,43 @@ class Employee {
  public:
 
 /**
- * 
+ * Displays Employee information to the standard output
  *
- * @pre 
  * @return virtual 
- * @post 
  * 
  */
   virtual void print();
 
 /**
- * 
+ * Returns the calculated pay based on rate and hours.
  *
- * @pre 
- * @return virtual 
- * @post 
+ * @return virtual double the total pay
  * 
  */
   virtual double calculatePay();
 
 /**
- * 
+ * Increments the years worked, and increases the hourly rate by 0.2%
  *
- * @pre 
  * @return void 
- * @post 
  * 
  */
   void anniversary();
 
 /**
- * 
+ * Default constructor sets all fields to -1
  *
- * @pre 
- * @post 
  * 
  */
   Employee();
 
 /**
- * 
+ * Parameterized constructor to initialize object to specific values
  *
- * @param int ID 
- * @param int years 
- * @param double hourlyRate 
- * @param float hoursWorked 
- * @pre 
- * @post 
+ * @param int ID the Employee ID
+ * @param int years the total number of years worked
+ * @param double hourlyRate the hourly rate of pay
+ * @param float hoursWorked the total number of hours worked
  * 
  */
   Employee(int ID, int years, double hourlyRate, float hoursWorked);

@@ -2,10 +2,10 @@
  * @file Officer.cpp
  * @author Matthew Deck
  * @date 2023-11-17
- * @brief 
- * 
+ * @brief an Employee object as rank Officer
  * 
  */
+
 
 #include "Officer.h"
 #include <iostream>

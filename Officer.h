@@ -2,8 +2,7 @@
  * @file Officer.h
  * @author Matthew Deck
  * @date 2023-11-17
- * @brief 
- * 
+ * @brief an Employee object as rank Officer
  * 
  */
 
@@ -14,10 +13,11 @@
 
 
 /**
- * 
+ * Officer class inherits from Employee class. Provides methods for displaying
+ * information and calculating pay specific to an Officer.
  *
  * @class Officer Officer.h "Doxygen/Officer.h"
- * @brief 
+ * @brief Officer rank Employee
  *
  */
 class Officer : public Employee {
@@ -26,44 +26,35 @@ class Officer : public Employee {
  public:
 
 /**
- * 
+ * Displays Officer information to the standard output
  *
- * @pre 
  * @return void 
- * @post 
  * 
  */
   void print();
 
 /**
- * 
+ * Returns the calculated pay based on rate and hours, adjusted for evilness.
  *
- * @pre 
- * @return double 
- * @post 
+ * @return double the total pay
  * 
  */
   double calculatePay();
 
 /**
- * 
- *
- * @pre 
- * @post 
+ * Default constructor sets evilness to 500, and all other values to -1
  * 
  */
   Officer();
 
 /**
- * 
+ * Parameterized constructor to initialize object to specific values
  *
- * @param int ID 
- * @param int years 
- * @param double hourlyRate 
- * @param float hoursWorked 
- * @param double evilness 
- * @pre 
- * @post 
+ * @param int ID the Employee ID
+ * @param int years the total number of years worked
+ * @param double hourlyRate  the hourly rate of pay
+ * @param float hoursWorked the total number of hours worked
+ * @param double evilness the evilness factor
  * 
  */
   Officer(int ID, int years, double hourlyRate, float hoursWorked, double evilness);
