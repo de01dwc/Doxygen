@@ -1,0 +1,11 @@
+# File list to ignore
+
+*.o
+*~
+*.json
+*.pdf
+*.exe
+
+GA1/*.ppm
+
+
