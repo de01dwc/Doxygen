@@ -1,4 +1,4 @@
 <map id="Officer" name="Officer">
-<area shape="rect" id="node1" title=" " alt="" coords="16,80,81,107"/>
-<area shape="rect" id="node2" href="$classEmployee.html" title=" " alt="" coords="5,5,92,32"/>
+<area shape="rect" id="node1" title="Officer rank Employee." alt="" coords="16,80,81,107"/>
+<area shape="rect" id="node2" href="$classEmployee.html" title="Base Employee object." alt="" coords="5,5,92,32"/>
 </map>
