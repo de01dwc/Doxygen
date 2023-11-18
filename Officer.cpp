@@ -1,3 +1,12 @@
+/**
+ * @file Officer.cpp
+ * @author Matthew Deck
+ * @date 2023-11-17
+ * @brief 
+ * 
+ * 
+ */
+
 #include "Officer.h"
 #include <iostream>
 

@@ -1,3 +1,10 @@
+/**
+ * @file main.cpp
+ * @author Matthew Deck
+ * @date 2023-11-17
+ * @brief Simple program to test inheritance
+ * 
+ */
 
 #include <iostream>
 #include "Employee.h"
@@ -6,6 +13,15 @@
 
 using namespace std;
 
+
+/**
+ * helper function to display the Employee object data to the standard output
+ *
+ * @param Employee & e The Employee object to display
+ * @pre e has been initialized
+ * @return void 
+ * 
+ */
 void runEmployeeTests(Employee & e);
 
 int main() {
